@@ -9,6 +9,8 @@ You should deploy your own [compound protocol](https://github.com/compound-finan
 
 The tutoral is [here](https://github.com/Dapp-Learning-DAO/Dapp-Learning/blob/main/defi/Compound/contract/Compound%E5%90%88%E7%BA%A6%E9%83%A8%E7%BD%B2.md).
 
+When complete deploying, copy cTokenDelegator & ComptrollerG1 address to replace the address in ./scripts/token.py (which is scripts of deploying and testing of cTokenMinePool.sol & MonkeyContract.sol, you can customize it to test more function.)
+
 ***********************************************************
 
 The mining earn show page, will become Dapp front-end lately (Currently only in Chinese) : www.zsharing.net:8080/
