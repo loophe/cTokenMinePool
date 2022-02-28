@@ -1,2 +1,2 @@
 # MonkeyKing
-The mining earn show page (In Chinese only for now) : www.zsharing.net:8080/
+The mining earn show page (Currently only in Chinese) : www.zsharing.net:8080/
