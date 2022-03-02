@@ -15,7 +15,7 @@ When complete deploying, copy cTokenDelegator & ComptrollerG1 address to replace
 
 ## zToken
 
-cTokenMinePool has its own ERC20 token named zToken, which usage just like accountSnapShot of Compound protocol. zToken is ledger of user who supply or borrow from Compound through cTokenMinePool. The difference between zToken and Compound cToken is that zToken must pair with monkey NFT, the borrowed unlying assets store in cTokenMinePool as while as cToken stored with it too. zToken and cToken have same total supply.
+cTokenMinePool has its own ERC20 token named zToken, which usage just like accountSnapShot of Compound protocol. zToken is ledger of users who supply to Compound through cTokenMinePool. The difference between zToken and Compound cToken is that zToken must pair with monkey NFT. The borrowed unlying assets store in cTokenMinePool as while as cToken stored with it too, but zToken transfered to the user's account as ledger of supplyment. zToken and cToken have same total supply.
 
 ## Monkey NFT
 
