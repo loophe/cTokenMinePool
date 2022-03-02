@@ -16,6 +16,7 @@ When complete deploying, copy cTokenDelegator & ComptrollerG1 address to replace
 ## Summerize
 
 What we expect of this metaverse game is that after supply and borrow from depolyed cToken contract, user account would have a created a monkey NFT. Monkey have six characters:
+ ```````````   
     //Monkey characters
     struct CryptoMonkey {        
         uint strength;
@@ -25,7 +26,7 @@ What we expect of this metaverse game is that after supply and borrow from depol
         uint256 birthtime;
         bool isLocked;
     } 
-
+````````````
 ***********************************************************
 
 The mining earn show page, will become Dapp front-end lately (Currently only in Chinese) : www.zsharing.net:8080/
