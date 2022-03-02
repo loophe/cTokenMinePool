@@ -34,7 +34,7 @@ What we expect of this metaverse game is that after supply and borrow from depol
 1. Strength character paired with accountIndex, store the amount of underlying token borrowed from cToken contract.
 2. AccountIndex is like borrowIndex in cToken. Strength will grow more and more as block accumulating. The current strength can be calculate as stengthCharacterNew = stengthCharacter * accountIndex. AccountINdex always > 1 so the strength value will keep growing.
 3. LuckyMumber is a random number that between 00000000-11111111.
-4. Genes represent the kind of cTokenMinePool. As there are many kinds of earning method in real world assets, the kinds of cTokenMinePool varis.
+4. Genes represent the kind of eraning module. As there are many kinds of assets could generate interests in real world, the kinds of eraning module varis.
 5. Birthtime is the time of NFT get created.
 6. IsLocked represent if the NFT can be transtered, or the strength character of the NFT can be changed by borrow or repay borrow.
 
