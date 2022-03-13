@@ -2,12 +2,12 @@
 pragma solidity ^0.8.3;
 
 import "./ERC20.sol";
-import "./Exponential.sol";
-import "./ErrorReporter.sol";
-import "./CTokenInterface.sol";
+import "./compoundLibary/Exponential.sol";
+import "./compoundLibary/ErrorReporter.sol";
+import "./zTokenInterfaces.sol";
 // import "./IERC20.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
-import "@openzeppelin/contracts/security/Pausable.sol";
+// import "@openzeppelin/contracts/security/Pausable.sol";
 // import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
 
 contract CTokenMinePool is ERC20, Ownable, Exponential, TokenErrorReporter{
