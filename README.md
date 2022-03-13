@@ -9,7 +9,7 @@ The main point of this project is cTokenMinePool.sol and MonkeyContract.sol in .
 
 I strongly recommend you setup brownie v1.17.2 and remix v0.22.0-dev first 
 
-Before starting this project, you should firstly deploy [forked compound protocol](https://github.com/loophe/compoundForked) on mainnet fork mode by above two or more. 
+Before starting this project, you should firstly deploy [forked compound protocol](https://github.com/loophe/compoundForked) on [mainnet fork mode](https://github.com/loophe/cTokenMinePool#mainnet-fork-mode) by above two or more. 
 
 When complete deploying, copy cTokenDelegator & ComptrollerG1 address to replace the address in ./scripts/token.py, which is scripts of deploying and testing of cTokenMinePool.sol & MonkeyContract.sol, you can customize it to test more function.
 
@@ -53,4 +53,6 @@ ganache-cli \
 
 ***********************************************************
 
-The mining earn show page, will become Dapp front-end lately (Currently only in Chinese) : www.zsharing.net:8080/
+## The mining earn show page 
+
+It will become Dapp front-end lately (Currently only in Chinese) : www.zsharing.net:8080/
