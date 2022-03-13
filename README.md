@@ -40,6 +40,17 @@ Each monkey have six characters:
 5. Birthtime is the time of NFT get created.
 6. IsLocked represent if the NFT can be transtered, or the strength character of the NFT can be changed by borrow or repay borrow.
 
+## Mainnet-fork mode
+
+Start ganache-cli mainnet-fork mode and keep it running untill all the tests finished. The commond line as follow:
+```````````
+ganache-cli \
+  -f https://eth-mainnet.alchemyapi.io/v2/${YOUR_API_TOKEN_HERE}\
+  -i 1 \
+  -u 0x9759A6Ac90977b93B58547b4A71c78317f391A28
+`````````````````````
+
+
 ***********************************************************
 
 The mining earn show page, will become Dapp front-end lately (Currently only in Chinese) : www.zsharing.net:8080/
